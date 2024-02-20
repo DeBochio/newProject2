@@ -201,3 +201,7 @@ footer {
 footer span {
   margin-right: 5px;
 }
+
+.error::placeholder {
+  color: red;
+}
