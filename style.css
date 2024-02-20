@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --secondcolor: #0c70f2;
+}
+body {
+  background-color: #bababa;
+}
+header {
+  background-color: var(--secondcolor);
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-family: "Inter";
+  font-weight: 800;
+  padding: 20px 40px;
+}
+
+header .logo {
+  font-size: 50px;
+}
+
+header ul {
+  display: flex;
+  align-self: center;
+  list-style-type: none;
+}
+
+header ul li {
+  margin-left: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.top h2 {
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 35px;
+}
+
+main {
+  margin: 150px auto;
+  width: 859px;
+  height: 930px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+form label {
+  font-family: "Inter";
+  font-size: 25px;
+}
+form input {
+  width: 630px;
+  height: 56px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 10px;
+  padding: 0 20px;
+  font-family: "Inter";
+  font-size: 20px;
+  margin: 20px 0;
+}
+.log-lat {
+  display: flex;
+  justify-content: space-between;
+}
+
+.log-lat input {
+  width: 296px;
+}
+form button {
+  width: 630px;
+  height: 56px;
+  background-color: var(--secondcolor);
+  color: #ffffff;
+  font-size: 22px;
+  font-family: "inter";
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  margin-top: 120px;
+}
+.showresults {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px auto;
+}
+.resultloc {
+  display: flex;
+  flex-direction: column;
+}
+.resultitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.resultitle h2 {
+  font-family: "inter";
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.results {
+  width: 1024px;
+  height: 150px;
+
+  border-radius: 30px;
+  overflow: hidden;
+}
+.results-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--secondcolor);
+  height: 72px;
+}
+.results-bottom {
+  display: flex;
+  height: 72px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  margin-left: -20px;
+}
+
+footer {
+  background-color: var(--secondcolor);
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+
+footer span {
+  margin-right: 5px;
+}

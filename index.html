@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DncWeather</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <span class="logo">DncWeather</span>
+      <ul class="links">
+        <li>Endereços</li>
+        <li>Previsão do tempo</li>
+      </ul>
+    </header>
+    <div class="container">
+      <section class="top">
+        <h2>
+          Descubra Mais com Precisão: Previsões do Tempo e endereços em tempo
+          real.
+        </h2>
+        <img src="img.svg" alt="weatherSimboo" />
+      </section>
+      <main>
+        <form>
+          <label for="nome">Primeiro Nome:</label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Insira o primeiro nome:"
+          />
+
+          <label for="email">E-mail:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Insira o E-mail"
+          />
+
+          <label for="cep"> CEP:</label>
+          <input type="text" name="cep" id="cep" placeholder="insira o CEP" />
+          <label>Digite a latitude e longitude para saber a previsão:</label>
+          <div class="log-lat">
+            <input
+              type="text"
+              name="latitude"
+              id="latitude"
+              placeholder="Latitude"
+            />
+            <input
+              type="text"
+              name="longitude"
+              id="longitude"
+              placeholder="Longitude"
+            />
+          </div>
+          <button class="btn" id="btn">Acessar</button>
+        </form>
+      </main>
+      <section class="showresults">
+        <div class="resultloc">
+          <div class="resultitle">
+            <h2>Resultado da busca por CEP:</h2>
+            <img src="local.svg" alt="localsimbulo" class="localsimb" />
+          </div>
+          <div class="results">
+            <div class="results-top">
+              <h3>Logradouro/nome</h3>
+              <h3>Bairro/Distrito</h3>
+              <h3>Localidade/UF</h3>
+            </div>
+            <div class="results-bottom">
+              <h3>Justino Cobra</h3>
+              <h3>Vila Ema</h3>
+              <h3>SP</h3>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h2>Previsão do tempo na região:</h2>
+            <img src="nuvens.svg" alt="" />
+          </div>
+          <div><p>Previsão de tempo de acordo com a região: 24° C</p></div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span>Termos de Uso |</span>
+      <span>Política de Privacidade</span>
+    </footer>
+    <script src="index.html"></script>
+  </body>
+</html>
