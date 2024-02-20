@@ -155,6 +155,39 @@ form button {
   margin-left: -20px;
 }
 
+.prevtemp {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 1024px;
+}
+
+.prevtemp-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.prevtemp-top h2 {
+  font-family: "inter";
+  font-size: 50px;
+  font-weight: 800;
+  margin-right: 10px;
+}
+.prevtemp-bottom {
+  background-color: #ffffff;
+  height: 72px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.prevtemp-bottom p {
+  font-family: "inter";
+  font-weight: 800;
+  font-size: 20px;
+}
 footer {
   background-color: var(--secondcolor);
   font-family: "inter";
@@ -164,6 +197,7 @@ footer {
   display: flex;
   justify-content: flex-end;
   padding: 10px 20px;
+  margin-top: 150px;
 }
 
 footer span {
